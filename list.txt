@@ -1,8 +1,8 @@
 [AutoProxy]
 
-/^http?:\/\/[^\/]+cloudfront\.net/
 /^https?:\/\/[^\/]+appspot\.com/
 /^https?:\/\/[^\/]+blogspot\.(.*)/
+/^https?:\/\/[^\/]+cloudfront\.net/
 /^https?:\/\/[^\/]+google[^\.]*\.(.*)/
 ||amazonaws.com
 ||android.com
