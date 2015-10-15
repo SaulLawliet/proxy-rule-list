@@ -1,3 +1,6 @@
+[AutoProxy]
+
+/^http?:\/\/[^\/]+cloudfront\.net/
 /^https?:\/\/[^\/]+appspot\.com/
 /^https?:\/\/[^\/]+blogspot\.(.*)/
 /^https?:\/\/[^\/]+google[^\.]*\.(.*)/
