@@ -7,8 +7,3 @@ if [[ "0" == $(cat $file_name |wc -l) ]]; then
 else
     sed -i '1i [AutoProxy]\n' $file_name
 fi
-
-git add .
-git status
-git commit -m "nothing to say"
-git push
